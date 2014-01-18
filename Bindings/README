@@ -1,0 +1,9 @@
+
+Run this command:
+
+
+g++ -fPIC guile-sfml.cpp `guile-config compile` `guile-config link` -lsfml-graphics -lsfml-window -lsfml-system -Wall -shared -o libguile-sfml.so
+
+
+
+And copy libguile-sfml.so to "/usr/lib/guile/2.0/extensions"
