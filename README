@@ -2,4 +2,6 @@ Simple SFML-2.1 bindings for GNU Guile.
 
 Follow the instructions in the Bindings and the Modules folders for installation instructions.
 
+NOTE: I'm currently writting this bindings using the Dynamic FFI of Guile (see page 398 section 6.20.5 of the GNU Guile Reference Manual).
+
 Eduardo Acuña Yeomans - eduardo.acye@gmail.com
